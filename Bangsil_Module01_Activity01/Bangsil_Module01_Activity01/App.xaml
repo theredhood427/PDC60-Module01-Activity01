@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bangsil_Module01_Activity01.App">
+    <Application.Resources>
+
+        <!-- Colors -->
+        <Color x:Key="BackgroundColor">#8062D6</Color>
+        <Color x:Key="PrimaryColor">#4682A9</Color>
+        <Color x:Key="SecondaryColor">#CD6688</Color>
+        <Color x:Key="TextColor">#FFF6E0</Color>
+
+        <!-- Implicit styles -->
+        <Style TargetType="{x:Type ContentPage}">
+            <Setter Property="BackgroundColor" Value="{StaticResource BackgroundColor}" />
+        </Style>
+
+        <Style TargetType="{x:Type Button}">
+            <Setter Property="BackgroundColor" Value="{StaticResource PrimaryColor}"/>
+            <Setter Property="TextColor" Value="{StaticResource TextColor}"/>
+            <Setter Property="HorizontalOptions" Value="Center"/>
+            <Setter Property="VerticalOptions" Value="Center"/>
+            <Setter Property="CornerRadius" Value="10"/>
+        </Style>
+
+        <Style TargetType="{x:Type Label}">
+            <Setter Property="FontSize" Value="32" />
+            <Setter Property="BackgroundColor" Value="{StaticResource SecondaryColor}" />
+            <Setter Property="TextColor" Value="{StaticResource TextColor}" />
+        </Style>
+    </Application.Resources>
+</Application>

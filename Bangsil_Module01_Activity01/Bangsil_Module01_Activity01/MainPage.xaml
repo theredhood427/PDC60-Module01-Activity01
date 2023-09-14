@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Bangsil_Module01_Activity01.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#8DDFCB" Padding="24" CornerRadius="6">
+            <Label Text="HELLO I AM BATMAN!!!" HorizontalTextAlignment="Center" TextColor="#F0F0F0" FontSize="40"/>
+        </Frame>
+        <Label Text="How are you doing?" FontSize="Title" Padding="30,10,30,10"/>
+        <Label FontSize="16" Padding="30,24,30,0">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Learn more at "/>
+                        <Span Text="AUF!!!" FontAttributes="Bold"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Button Clicked="OpenPage1">
+            <Button.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="BackgroundColor" Value="#EDB7ED"/>
+                    <Setter Property="TextColor" Value="#322653"/>
+                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="Text" Value="Page1"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
+        <Button Clicked="OpenPage2">
+            <Button.Resources>
+                <Style TargetType="Button">
+                    <Setter Property="FontSize" Value="15"/>
+                    <Setter Property="BackgroundColor" Value="#ECEE81"/>
+                    <Setter Property="TextColor" Value="#4E4FEB"/>
+                    <Setter Property="CornerRadius" Value="20"/>
+                    <Setter Property="Text" Value="Page2"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        <Button Text="Lets GO!"></Button>
+
+    </StackLayout>
+
+</ContentPage>

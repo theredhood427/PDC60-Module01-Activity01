@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "VLZ2sfYgj+InUHWrsi08AfNse5JcU7iKaO96Msf/9LD6ds2V2ReVaE+JPZ2SQH/ZVZ35HC71AohnyeMCvbo2bQ==",
+  "success": true,
+  "projectFilePath": "C:\\VStudio\\projects\\Bangsil_Module01_Activity01\\Bangsil_Module01_Activity01\\Bangsil_Module01_Activity01.iOS\\Bangsil_Module01_Activity01.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\russ\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\russ\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\russ\\.nuget\\packages\\xamarin.forms\\5.0.0.2196\\xamarin.forms.5.0.0.2196.nupkg.sha512"
+  ],
+  "logs": []
+}
